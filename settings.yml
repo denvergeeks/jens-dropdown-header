@@ -1,6 +1,6 @@
 header_links:
   description: "Top level header links"
-  default: >-
+  default: "[{\"id\":0,\"title\":\"Other Community Sites\",\"icon\":\"\",\"url\":\"#\"}]"
   json_schema: '
   {
     "type": "array",
@@ -29,7 +29,7 @@ header_links:
   }'
 dropdown_links:
   description: "Dropdown Items"
-  default: >-
+  default: "[{\"headerLinkId\":0,\"title\":\"Jen.Do\",\"icon\":\"\",\"url\":\"https://jen.do\",\"description\":\"Jen's Project Forums\"},{\"headerLinkId\":0,\"title\":\"Discourse.Pub\",\"icon\":\"\",\"url\":\"https://discourse.pub\",\"description\":\"A Hub of Discourse Communities\"}]"
   json_schema: '
   {
     "type": "array",
