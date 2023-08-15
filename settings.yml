@@ -95,7 +95,7 @@ security:
   }
   '
 links_position:
-  default: right
+  default: left
   type: enum
   choices:
     - right
